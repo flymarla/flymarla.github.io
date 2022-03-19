@@ -23,3 +23,16 @@ body
     height: 80px;
     padding-left: 20px;
 }
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+}
+.fa-bars
+{
+    color: #fff;
+    font-size: 30px !important;
+}
