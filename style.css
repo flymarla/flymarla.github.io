@@ -123,3 +123,33 @@ body
     border-radius: 20px;
     background-image: linear-gradient(to right, #f1c192, #825917c5);
 }
+
+/*---------------------about-me section---------------*/
+
+#about-me
+{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.about-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+#about-me ul li
+{
+    margin: 10px, 0;
+}
+#about-me ul
+{
+    margin: 10px;
+}
+#about-me img
+{
+    height: 300px;
+    width: auto;
+    margin-top: 20px;
+    margin-left: 40px;
+}
