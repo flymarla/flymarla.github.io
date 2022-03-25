@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
 }
+html
+{
+    scroll-behavior: smooth;
+}
 body
 {
     font-family: sans-serif;
@@ -154,6 +158,31 @@ body
     margin-left: 40px;
 }
 
+/*--------------------------education section---------------------*/
+
+#education
+{
+    margin: 100px 0;
+}
+.education
+{
+    border-left: 4px solid #825917c5;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.education img
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 5%;
+    margin: 0 10;
+}
+.school-details
+{
+    display: inline-block;
+    font-size: 12px;
+}
+
 /*--------------------------social-media section---------------------*/
 
 #social-media
@@ -174,4 +203,62 @@ body
 .social-icons a:hover img
 {
     transform: translateY(-10px);
+}
+
+/*-------------------------footer---------------------------------*/
+
+#footer
+{
+    background-image: linear-gradient(to right, #f1c192, #825917c5);
+    color: #fff;
+}
+.footer-img
+{
+    width: 100%;
+}
+.footer-box
+{
+    padding: 20px;
+}
+.footer-box img
+{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-box .fa
+{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #f1c192, #825917c5);
+}
+.footer-box .form-control
+{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+
+}
+.footer-box .btn-primary
+{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #f1c192, #825917c5);
+}
+.hr
+{
+    background-color: #fff;
+}
+.copyright{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
 }
