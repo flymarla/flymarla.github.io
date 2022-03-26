@@ -310,3 +310,30 @@ body
     margin-top: 30px;
     background-image: linear-gradient(to right, #f1c192, #825917c5);
 }
+
+/*-------------------------bus-tracker section------------------------------*/
+
+#bus-tracker
+{
+    background: burlywood;
+    text-align: center;
+    color: #fff;
+}
+.bus-tracker
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.link .btn-primary
+{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #f1c192, #825917c5);
+}
+.bus-tracker img
+{
+    width: 300px;
+    margin-bottom: 20px;
+}
