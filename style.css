@@ -70,6 +70,10 @@ body
     color: #fff;
     text-decoration: none;
 }
+.foundation a
+{
+    width: 100px;
+}
 .bottom-img
 {
     width: 100%;
@@ -261,4 +265,26 @@ body
     margin-bottom: 0;
     padding-bottom: 20px;
     text-align: center;
+}
+
+/*-------------------------pacman section------------------------------*/
+
+#pacman
+{
+    background: burlywood;
+    text-align: center;
+    color: #fff;
+}
+.pacman
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.link .btn-primary
+{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #f1c192, #825917c5);
 }
