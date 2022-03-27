@@ -19,7 +19,7 @@ body
 }
 .navbar
 {
-  background-image: linear-gradient(to right, #f1c192, #825917c5);
+  background-image: linear-gradient(to right, #f5cba7, #784212);
   padding: 0 !important;
 }
 .navbar-brand img
@@ -50,7 +50,7 @@ body
 /*------------banner section--------------*/
 #banner
 {
-    background-image: linear-gradient(to right, #f1c192, #825917c5);
+    background-image: linear-gradient(to right, #f5cba7, #784212);
     color: #fff;
     padding-top: 5%;
 }
@@ -58,7 +58,7 @@ body
 {
     font-size: 40px;
     font-weight: 600;
-    margin-top: 100px;
+    margin-top: 75px;
 }
 .play-btn
 {
@@ -83,6 +83,7 @@ body
 
 #projects
 {
+    background: #f5cba7;
     padding: 80px 0;
 }
 .project-img
@@ -105,7 +106,7 @@ body
     content: '';
     background: #825917c5;
     height: 5px;
-    width: 400px;
+    width: 800px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -116,27 +117,51 @@ body
     content: '';
     background: #825917c5;
     height: 10px;
-    width: 50px;
+    width: 200px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
     display: block;
-    transform: translateY(18px);
+    transform: translateY(20px);
 }
 #projects .btn-primary
 {
     box-shadow: none;
     padding: 8px, 25px;
+    margin-bottom: 40px;
     border: none;
     border-radius: 20px;
     background-image: linear-gradient(to right, #f1c192, #825917c5);
+}
+
+/*--------------------------education section---------------------*/
+
+#education
+{
+    background: #f5cba7;
+}
+.education
+{
+    font-weight: bold;
+    border-left: 4px solid #825917c5;
+    border-right: 4px solid #825917c5;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.education img
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 5%;
+    margin: 0 10;
 }
 
 /*---------------------about-me section---------------*/
 
 #about-me
 {
-    background: #f8f9fa;
+    background: #f5cba7;
     padding-bottom: 50px;
     padding-top: 50px;
 }
@@ -162,36 +187,13 @@ body
     margin-left: 40px;
 }
 
-/*--------------------------education section---------------------*/
 
-#education
-{
-    margin: 100px 0;
-}
-.education
-{
-    border-left: 4px solid #825917c5;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-.education img
-{
-    height: 200px;
-    width: 200px;
-    border-radius: 5%;
-    margin: 0 10;
-}
-.school-details
-{
-    display: inline-block;
-    font-size: 12px;
-}
 
 /*--------------------------social-media section---------------------*/
 
 #social-media
 {
-    background: #f8f9fa;
+    background: #f5cba7;
     padding: 100px 0;
 }
 .social-media p
@@ -213,7 +215,7 @@ body
 
 #footer
 {
-    background-image: linear-gradient(to right, #f1c192, #825917c5);
+    background-image: linear-gradient(to right, #f5cba7, #784212);
     color: #fff;
 }
 .footer-img
