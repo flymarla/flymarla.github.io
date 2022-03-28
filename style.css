@@ -223,8 +223,28 @@ body
 .social-icons img{
     width: 60px;
     transition: 0.5s;
+    padding: 5px;
+}
+.social-icons .fa
+{
+    color: #fff;
+    padding: 5px;
+    margin-right: 8px;
+    font-size: 35px;
+    vertical-align: middle;
+    height: 50px;
+    width: 50px;
+    transition: 0.5s;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #f1c192, #825917c5);
 }
 .social-icons a:hover img
+{
+    transform: translateY(-10px);
+}
+.social-icons a:hover .fa
 {
     transform: translateY(-10px);
 }
