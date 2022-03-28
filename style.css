@@ -161,27 +161,48 @@ body
 
 #bio
 {
-    background-color: #f5cba7;
+    background-color: #f5cba7; 
     padding-bottom: 50px;
     padding-top: 50px;
     display: flex;
 }
+.bio
+{
+    font-size: larger;
+    vertical-align: middle;
+    
+    
+}
+.right
+{
+    text-align: right;
+    vertical-align: middle;
+}
+.left
+{
+    text-align: left;
+    vertical-align: middle;
+}
 
 .biopic1 
 {
+    padding: 15px;
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    shape-outside: circle() margin-box;
+    vertical-align: middle;
+    shape-outside: circle();
     float: left;
     shape-margin: 10px;
 } 
   .biopic2 
 {
+    padding: 15px;
     width: 300px;
     height: 300px;
+    vertical-align: middle;
     border-radius: 50%; 
-    shape-outside: circle() margin-box;
+    shape-outside: circle();
     float: right;
     shape-margin: 10px;
 } 
