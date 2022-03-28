@@ -122,7 +122,7 @@ body
     margin-right: auto;
     margin-bottom: 40px;
     display: block;
-    transform: translateY(20px);
+    transform: translateY(17px);
 }
 #projects .btn-primary
 {
@@ -157,37 +157,34 @@ body
     margin: 0 10;
 }
 
-/*---------------------about-me section---------------*/
+/*--------------------------bio section-----------------------------*/
 
-#about-me
+#bio
 {
-    background: #f5cba7;
+    background-color: #f5cba7;
     padding-bottom: 50px;
     padding-top: 50px;
+    display: flex;
 }
-.about-title
+
+.biopic1 
 {
-    font-size: 40px;
-    font-weight: 600;
-    margin-top: 8%;
-}
-#about-me ul li
-{
-    margin: 10px, 0;
-}
-#about-me ul
-{
-    margin: 10px;
-}
-#about-me img
-{
+    width: 300px;
     height: 300px;
-    width: auto;
-    margin-top: 20px;
-    margin-left: 40px;
-}
-
-
+    border-radius: 50%;
+    shape-outside: circle() margin-box;
+    float: left;
+    shape-margin: 10px;
+} 
+  .biopic2 
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%; 
+    shape-outside: circle() margin-box;
+    float: right;
+    shape-margin: 10px;
+} 
 
 /*--------------------------social-media section---------------------*/
 
