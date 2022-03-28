@@ -11,11 +11,13 @@ body
 {
     font-family: sans-serif;
 }
+
 #nav-bar
 {
     position: sticky;
     top: 0;
     z-index: 10;
+    margin-top: -50px;
 }
 .navbar
 {
@@ -47,6 +49,11 @@ body
     outline: none !important;
 }
 
+section:before {
+    height: 50px;
+    content: "";
+    display:block;
+}
 /*------------banner section--------------*/
 #banner
 {
@@ -58,7 +65,7 @@ body
 {
     font-size: 40px;
     font-weight: 600;
-    margin-top: 75px;
+    margin-top: 25px;
 }
 .play-btn
 {
