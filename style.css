@@ -59,7 +59,7 @@ section::before {
 {
     background-image: linear-gradient(to right, #f5cba7, #784212);
     color: #fff;
-    padding-top: 5%;
+    padding-top: 3%;
 }
 .promo-title
 {
@@ -80,6 +80,11 @@ section::before {
 .foundation a
 {
     width: 100px;
+}
+.foundation img
+{
+    width: 500px;
+    padding-bottom: 50px;
 }
 .bottom-img
 {
@@ -319,7 +324,7 @@ section::before {
 
 #pacman
 {
-    background: burlywood;
+    background: #f5cba7;
     text-align: center;
     color: #fff;
 }
@@ -327,21 +332,29 @@ section::before {
 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 3fr 1fr;
 }
-.link .btn-primary
+.divider-pacman
+{
+    margin: 10px 0;
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+    background-image: linear-gradient(to left, #f5cba7, #784212);
+}
+.link-pacman .btn-primary
 {
     box-shadow: none !important;
     border: none;
     border-radius: 0;
     margin-top: 30px;
-    background-image: linear-gradient(to right, #f1c192, #825917c5);
+    background: #784212;
 }
 
 /*-------------------------eye-exercise section------------------------------*/
 
 #eye-exercise
 {
-    background: burlywood;
+    background: #f5cba7;
     text-align: center;
     color: #fff;
 }
@@ -349,21 +362,29 @@ section::before {
 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 3fr 1fr;
 }
-.link .btn-primary
+.divider-eye
+{
+    margin: 10px 0;
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+    background-image: linear-gradient(to right, #f5cba7, #784212);
+}
+.link-eye .btn-primary
 {
     box-shadow: none !important;
     border: none;
     border-radius: 0;
     margin-top: 30px;
-    background-image: linear-gradient(to right, #f1c192, #825917c5);
+    background: #784212;
 }
 
 /*-------------------------bus-tracker section------------------------------*/
 
 #bus-tracker
 {
-    background: burlywood;
+    background: #f5cba7;
     text-align: center;
     color: #fff;
 }
@@ -371,14 +392,22 @@ section::before {
 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 3fr 1fr;
 }
-.link .btn-primary
+.divider-bus
+{
+    margin: 10px 0;
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+    background-image: linear-gradient(to left, #f5cba7, #784212);
+}
+.link-bus .btn-primary
 {
     box-shadow: none !important;
     border: none;
     border-radius: 0;
     margin-top: 30px;
-    background-image: linear-gradient(to right, #f1c192, #825917c5);
+    background: #784212;
 }
 .bus-tracker img
 {
