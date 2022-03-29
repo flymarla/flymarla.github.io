@@ -225,7 +225,7 @@ section::before {
 #social-media
 {
     background: #f5cba7;
-    padding: 100px 0;
+    padding: 100px;
 }
 .social-media p
 {
@@ -276,39 +276,6 @@ section::before {
 .footer-box
 {
     padding: 20px;
-}
-.footer-box img
-{
-    width: 120px;
-    margin-bottom: 20px;
-}
-.footer-box .fa
-{
-    margin-right: 8px;
-    font-size: 25px;
-    height: 40px;
-    width: 40px;
-    text-align: center;
-    padding-top: 7px;
-    border-radius: 2px;
-    background-image: linear-gradient(to right, #f1c192, #825917c5);
-}
-.footer-box .form-control
-{
-    box-shadow: none !important;
-    border: none;
-    border-radius: 0;
-    margin-top: 25px;
-    max-width: 250px;
-
-}
-.footer-box .btn-primary
-{
-    box-shadow: none !important;
-    border: none;
-    border-radius: 0;
-    margin-top: 30px;
-    background-image: linear-gradient(to right, #f1c192, #825917c5);
 }
 .hr
 {
@@ -387,6 +354,7 @@ section::before {
     background: #f5cba7;
     text-align: center;
     color: #fff;
+    padding-bottom: 100px;
 }
 .bus-tracker
 {
