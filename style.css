@@ -143,7 +143,7 @@ section::before {
     margin-bottom: 40px;
     border: none;
     border-radius: 20px;
-    background-image: linear-gradient(to right, #f1c192, #825917c5);
+    background: #784212;
 }
 
 /*--------------------------education section---------------------*/
@@ -312,7 +312,7 @@ section::before {
 {
     box-shadow: none !important;
     border: none;
-    border-radius: 0;
+    border-radius: 5px;
     margin-top: 30px;
     background: #784212;
 }
@@ -342,7 +342,7 @@ section::before {
 {
     box-shadow: none !important;
     border: none;
-    border-radius: 0;
+    border-radius: 5px;
     margin-top: 30px;
     background: #784212;
 }
@@ -373,7 +373,7 @@ section::before {
 {
     box-shadow: none !important;
     border: none;
-    border-radius: 0;
+    border-radius: 5px;
     margin-top: 30px;
     background: #784212;
 }
