@@ -17,12 +17,12 @@ body
     position: sticky;
     top: 0;
     z-index: 10;
-    margin-top: -50px;
 }
 .navbar
 {
   background-image: linear-gradient(to right, #f5cba7, #784212);
   padding: 0 !important;
+  margin-top: -100px !important;
 }
 .navbar-brand img
 {
@@ -49,8 +49,8 @@ body
     outline: none !important;
 }
 
-section:before {
-    height: 50px;
+section::before {
+    height: 100px;
     content: "";
     display:block;
 }
@@ -91,7 +91,7 @@ section:before {
 #projects
 {
     background: #f5cba7;
-    padding: 80px 0;
+    padding: 50px 0;
 }
 .project-img
 {
@@ -146,14 +146,15 @@ section:before {
 #education
 {
     background: #f5cba7;
+    padding-top: 50px;
 }
 .education
 {
+    padding-bottom: 50px;
+    margin-bottom: 20px;
     font-weight: bold;
     border-left: 4px solid #825917c5;
     border-right: 4px solid #825917c5;
-    margin-top: 50px;
-    margin-bottom: 50px;
     text-align: center;
 }
 .education img
@@ -169,12 +170,12 @@ section:before {
 #bio
 {
     background-color: #f5cba7; 
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding-top: 100px;
     display: flex;
 }
 .bio
 {
+    padding: 20px;
     font-size: larger;
     vertical-align: middle;
     
