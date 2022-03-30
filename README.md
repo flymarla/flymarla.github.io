@@ -12,7 +12,7 @@ This project creates a personal portfolio website.
 
 ## How to Run
 
-To see this website, go to https://www.flymarla.gitug.io
+To see this website, go to https://www.flymarla.github.io
 
 ## Roadmap to Future Improvements
 
